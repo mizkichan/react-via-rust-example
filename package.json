@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "webpack-dev-server -d",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
